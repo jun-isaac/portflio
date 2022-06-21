@@ -83,12 +83,25 @@ main {
 }
 
 main > .box {
+    position: relative;
     width: 50%;
     height: 50%;
-    outline: 2px solid #333;
+    /* outline: 2px solid #333; */
+    justify-content: center;
     text-align: center;
+    float: left;
+    color: #fff;
 }
 
-.bgImg:first-child {
-    background-image: ;
+.box > h2 {
+    position: absolute;
+    bottom: 108px;
+    width: 100%;
+}
+
+.btn {
+    bottom: 40px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
 }
