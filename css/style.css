@@ -54,6 +54,11 @@ a {
     margin: 0 auto;
 }
 
+#gnb > ul {
+    position: absolute;
+    top: 265px;
+}
+
 #gnb > ul > li > a{
     width: 226px;
     height: 49px;
@@ -67,7 +72,7 @@ a {
 .sns {
     position: absolute;
     bottom: 48px;
-    left: 83px;
+    left: 70px;
 }
 
 .sns a {
@@ -104,4 +109,10 @@ main > .box {
     width: 100%;
     position: absolute;
     text-align: center;
+}
+
+.logo > img {
+    position: absolute;
+    width: 100px;
+    left: 109px;
 }
